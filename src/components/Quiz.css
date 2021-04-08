@@ -1,0 +1,32 @@
+.quiz{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(144, 137, 238) , rgb(195, 200, 224));
+    border-radius: 25px;
+    box-shadow: rgb(112, 110, 110) 1px 1px 1px;
+    
+}
+.step{
+    background-color: rgb(78, 36, 146);
+    padding: 1vh;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 136, 51);
+    padding: 1vh;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+}
+
+div.quiz > * {
+    margin: 3vw;
+}
