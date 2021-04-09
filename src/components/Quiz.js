@@ -4,12 +4,12 @@ import Question from "./Question"
 import AnswerList from "./AnswerList"
 import "./Quiz.css"
 
-export default function Quiz({questionList, step, skor, nextQuestion, checkAnswer}) {
+export default function Quiz({questionList, step, skor, nextQuestion, checkAnswer, totalQuestion}) {
 
   return (
       <div className="quiz">
       <div className="table">
-        <p className="step">Frage: {step}</p>
+        <p className="step">Frage <br/>{totalQuestion}/{step}</p>
         <p className="skor"> {skor}</p>
     </div>
     <div><Question questions={questionList}/></div> 

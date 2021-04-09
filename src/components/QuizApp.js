@@ -33,6 +33,7 @@ const checkAnswer =(e)=>{
       skor={skor} step={step} 
       nextQuestion={nextQuestion} 
       checkAnswer={checkAnswer}
+      totalQuestion={NUMMERSQUIZ}
      />
     </div>)
   }else{

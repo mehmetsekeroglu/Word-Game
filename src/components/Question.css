@@ -1,9 +1,9 @@
 .question{
+    display: flex;
+    justify-content: center;
     background-color: rgb(231, 139, 18);
-    padding: 2vh;
+    padding: 3vh;
     border: chocolate;
     width: 5vw;
-    
-
-
+    box-shadow: rgb(97, 93, 93) 1px 1px 1px;
 }

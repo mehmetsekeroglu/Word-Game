@@ -4,4 +4,5 @@ div[name=answer] {
     margin: 1vh;
     padding: 2vh;
     width: 7vw;
+    box-shadow: rgb(97, 93, 93) 1px 1px 1px;
   }
