@@ -1,13 +1,14 @@
 .quiz{
     display: flex;
     align-items: center;
-    background-image: linear-gradient(to right, rgb(144, 137, 238) , rgb(195, 200, 224));
+    background-image: linear-gradient(to right, rgb(87, 74, 4) , rgb(236, 238, 122));
     border-radius: 25px;
     box-shadow: rgb(112, 110, 110) 1px 1px 1px;
     
 }
 .step{
-    background-color: rgb(38, 52, 184);
+    background-color: rgb(46, 33, 13);
+    color: bisque;
     padding: 1vh;
     width: 5vw;
     height: 5vw;
@@ -21,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(28, 136, 51);
+    background-color: #FFBA00;
     padding: 1vh;
     width: 5vw;
     height: 5vw;

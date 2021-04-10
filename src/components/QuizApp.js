@@ -24,7 +24,7 @@ const checkAnswer =(e)=>{
    setSkor(skor+10)
    setStep(step+1)
   }else{
-    setSkor(skor+0)
+    setSkor(skor)
     setStep(step+1)
   }}
   if(step<=NUMMERSQUIZ){
@@ -41,7 +41,6 @@ const checkAnswer =(e)=>{
       <div>
         <Result skor={skor} back={backButton}/>
       </div>
-      
     )
   }
 }

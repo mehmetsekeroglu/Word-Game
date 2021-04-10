@@ -1,4 +1,5 @@
 body {
-  background-image: linear-gradient(to right, rgb(238, 137, 208) , rgb(152, 165, 223));
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: linear-gradient(to bottom, rgb(233, 152, 31) , rgb(37, 21, 3));
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
